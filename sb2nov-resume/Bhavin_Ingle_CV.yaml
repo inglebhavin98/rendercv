@@ -11,32 +11,18 @@ cv:
       username: inglebhavin98
   custom_connections: []
   sections:
-    education:
-      - institution: Faculty of Management Studies, University of Delhi
-        area: "Master of Business Administration (MBA)"
-        degree: 
-        date:
-        start_date: 2024-07
-        end_date: 2026-05
-        location: Delhi
-        summary: ""
-        highlights:
-        # optional
-          # - Selected from a batch of 280+ students to serve as an Executive Member of the Alpha Research & Investment Club; managed an INR 5L live portfolio funded by students and alumni for the 2025–2026 term.
-      - institution: Sardar Patel Institute of Technology, University of Mumbai
-        area: ""
-        degree: ""
-        date: 
-        start_date: 2016-06
-        end_date: 2020-05
-        location: Mumbai
-        summary: Bachelor of Engineering (BE) in Electronics & Telecommunication
-          Engineering
-        highlights:
-          - Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.
-          - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100k+ applicants.
-          - Authored and presented 3 IEEE research papers (at IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision. 
     experience:
+      - company: Accenture Strategy & Consulting
+        position: Management Consulting
+        date:
+        start_date: 
+        end_date: present
+        location: Bengaluru, IN
+        summary:
+        highlights:
+          - Architected a stateful multi-agent orchestrator prototype using LangGraph and LangChain to simulate the end-to-end migration of a Fortune 10 Global Healthcare Enterprise.
+          - Implemented an Orchestrator-Worker pattern running Chain–of–Thought (CoT) and few-shot prompting over multi-LLM router pipelines, mapping ~70 complex healthcare intents onto intelligent conversational steering bots.
+#
       - company: Accenture Strategy & Consulting
         position: Management Consulting Analyst Intern
         date:
@@ -105,24 +91,26 @@ cv:
     #     journal: IEEE International Symposium on Smart Electronic Systems -iSES
     #     date: 2019
     #
-    projects:
-      - name: '[FlashInfer](https://github.com/)'
-        date:
-        start_date: 2023-01
-        end_date: present
-        location:
-        summary: Open-source library for high-performance LLM inference kernels
-        highlights:
-          - Achieved 2.8x speedup over baseline attention implementations on
-            A100 GPUs
-          - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+
+    # projects:
+    #   - name: '[FlashInfer](https://github.com/)'
+    #     date:
+    #     start_date: 2023-01
+    #     end_date: present
+    #     location:
+    #     summary: Open-source library for high-performance LLM inference kernels
+    #     highlights:
+    #       - Achieved 2.8x speedup over baseline attention implementations on
+    #         A100 GPUs
+    #       - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+
     # selected_honors:
     #   - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
     #   - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
     #   - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
     #   - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
     #   - bullet: Fulbright Scholarship for Graduate Studies (2018)
-    skills:
+    technical_skills:
       - label: Languages
         details: Python, C++, CUDA, Rust, Julia
       - label: ML Frameworks
@@ -132,6 +120,31 @@ cv:
       - label: Research Areas
         details: Neural architecture search, model compression, efficient inference,
           multi-agent RL
+    education:
+      - institution: Faculty of Management Studies, University of Delhi
+        area: "Master of Business Administration (MBA)"
+        degree: 
+        date:
+        start_date: 2024-07
+        end_date: 2026-05
+        location: Delhi
+        summary: ""
+        highlights:
+        # optional
+          # - Selected from a batch of 280+ students to serve as an Executive Member of the Alpha Research & Investment Club; managed an INR 5L live portfolio funded by students and alumni for the 2025–2026 term.
+      - institution: Sardar Patel Institute of Technology, University of Mumbai
+        area: ""
+        degree: ""
+        date: 
+        start_date: 2016-06
+        end_date: 2020-05
+        location: Mumbai
+        summary: Bachelor of Engineering (BE) in Electronics & Telecommunication
+          Engineering
+        highlights:
+          - Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.
+          - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100k+ applicants.
+          - Authored and presented 3 IEEE research papers (at IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision. 
     # patents:
     #   - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US
     #       Patent 11,234,567)

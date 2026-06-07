@@ -95,49 +95,28 @@
 )
 
 
-== Education
-
-#education-entry(
-  [
-    #strong[Faculty of Management Studies, University of Delhi]
-
-    #emph[Master of Business Administration (MBA)]
-
-  ],
-  [
-    #emph[Delhi]
-
-    #emph[July 2024 – May 2026]
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#education-entry(
-  [
-    #strong[Sardar Patel Institute of Technology, University of Mumbai]
-
-    #summary[Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering]
-
-  ],
-  [
-    #emph[Mumbai]
-
-    #emph[June 2016 – May 2020]
-
-  ],
-  main-column-second-row: [
-    - Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5\/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC\/HMI training.
-
-    - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100k+ applicants.
-
-    - Authored and presented 3 IEEE research papers (at IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
-
-  ],
-)
-
 == Experience
+
+#regular-entry(
+  [
+    #strong[Management Consulting]
+
+    #emph[Accenture Strategy & Consulting]
+
+  ],
+  [
+    #emph[Bengaluru, IN]
+
+    #emph[present]
+
+  ],
+  main-column-second-row: [
+    - Architected a stateful multi-agent orchestrator prototype using LangGraph and LangChain to simulate the end-to-end migration of a Fortune 10 Global Healthcare Enterprise.
+
+    - Implemented an Orchestrator-Worker pattern running Chain–of–Thought (CoT) and few-shot prompting over multi-LLM router pipelines, mapping \~70 complex healthcare intents onto intelligent conversational steering bots.
+
+  ],
+)
 
 #regular-entry(
   [
@@ -218,28 +197,7 @@
   ],
 )
 
-== Projects
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/")[FlashInfer]]
-
-  ],
-  [
-    #emph[Jan 2023 – present]
-
-  ],
-  main-column-second-row: [
-    #summary[Open-source library for high-performance LLM inference kernels]
-
-    - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-
-    - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-
-  ],
-)
-
-== Skills
+== Technical Skills
 
 #strong[Languages:] Python, C++, CUDA, Rust, Julia
 
@@ -248,3 +206,45 @@
 #strong[Infrastructure:] Kubernetes, Ray, distributed training, AWS, GCP
 
 #strong[Research Areas:] Neural architecture search, model compression, efficient inference, multi-agent RL
+
+== Education
+
+#education-entry(
+  [
+    #strong[Faculty of Management Studies, University of Delhi]
+
+    #emph[Master of Business Administration (MBA)]
+
+  ],
+  [
+    #emph[Delhi]
+
+    #emph[July 2024 – May 2026]
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#education-entry(
+  [
+    #strong[Sardar Patel Institute of Technology, University of Mumbai]
+
+    #summary[Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering]
+
+  ],
+  [
+    #emph[Mumbai]
+
+    #emph[June 2016 – May 2020]
+
+  ],
+  main-column-second-row: [
+    - Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5\/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC\/HMI training.
+
+    - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100k+ applicants.
+
+    - Authored and presented 3 IEEE research papers (at IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
+
+  ],
+)

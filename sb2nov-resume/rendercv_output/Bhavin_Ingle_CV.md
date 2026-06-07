@@ -5,34 +5,21 @@
 - LinkedIn: [inglebhavin98](https://linkedin.com/in/inglebhavin98)
 
 
-# Education
-## **Faculty of Management Studies, University of Delhi**
-*Delhi*
-
-
-*July 2024 – May 2026*
-
- *Master of Business Administration (MBA)*
-
-
-
-## **Sardar Patel Institute of Technology, University of Mumbai**
-*Mumbai*
-
-
-*June 2016 – May 2020*
-
-Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering
-
-- Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.
-
-- Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100k+ applicants.
-
-- Authored and presented 3 IEEE research papers (at IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
-
-
-
 # Experience
+## **Management Consulting**
+
+*Bengaluru, IN*
+
+*present*
+
+*Accenture Strategy & Consulting*
+
+- Architected a stateful multi-agent orchestrator prototype using LangGraph and LangChain to simulate the end-to-end migration of a Fortune 10 Global Healthcare Enterprise.
+
+- Implemented an Orchestrator-Worker pattern running Chain–of–Thought (CoT) and few-shot prompting over multi-LLM router pipelines, mapping ~70 complex healthcare intents onto intelligent conversational steering bots.
+
+
+
 ## **Management Consulting Analyst Intern**
 
 *Bengaluru, IN*
@@ -90,20 +77,7 @@ Directed product engineering till MVP launch before transitioning to a strictly 
 
 
 
-# Projects
-## **[FlashInfer](https://github.com/)**
-
-*Jan 2023 – present*
-
-Open-source library for high-performance LLM inference kernels
-
-- Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-
-- Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-
-
-
-# Skills
+# Technical Skills
 **Languages:** Python, C++, CUDA, Rust, Julia
 
 **ML Frameworks:** PyTorch, JAX, TensorFlow, Triton, ONNX
@@ -111,3 +85,30 @@ Open-source library for high-performance LLM inference kernels
 **Infrastructure:** Kubernetes, Ray, distributed training, AWS, GCP
 
 **Research Areas:** Neural architecture search, model compression, efficient inference, multi-agent RL
+
+# Education
+## **Faculty of Management Studies, University of Delhi**
+*Delhi*
+
+
+*July 2024 – May 2026*
+
+ *Master of Business Administration (MBA)*
+
+
+
+## **Sardar Patel Institute of Technology, University of Mumbai**
+*Mumbai*
+
+
+*June 2016 – May 2020*
+
+Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering
+
+- Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.
+
+- Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100k+ applicants.
+
+- Authored and presented 3 IEEE research papers (at IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
+
+
