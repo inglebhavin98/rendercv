@@ -80,11 +80,11 @@ Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering
 
 *Zargun Electronics and Science Pvt. Ltd.*
 
-Directed product engineering till MVP launch before transitioning to a strictly non-operational advisory role in Aug '20.
+Directed product engineering until MVP launch before transitioning to a non-operational advisory role in August 2020.
 
-- Built a real-time GIS analytics and logistics dashboard leveraging AWS (EC2, Lambda) and an event-driven architecture (Kafka, MQTT) to process continuous hardware telemetry into automated dispatch routing.
+- Architected modular and ultra-low-powered IoT ecosystem devices with interchangeable sensor payloads, micro-spectrometry (to identify polymers – HDPE, PET, PP) enabling scaling across waste, compost, and material sensing.
 
-- Recognized globally as a Top 15 enterprise (out of 41 teams across 16 nations) at the Singapore International Foundation's Young Social Entrepreneurs 2021 accelerator, receiving mentorship from McKinsey and Temasek Int.
+- Recognized globally as a Top 15 enterprise (out of 41 teams across 16 nations) at the Singapore International Foundation's Young Social Entrepreneurs cohort, receiving mentorship from McKinsey and Temasek International.
 
 - Secured over $44K in seed grants, via the MeitY STPI CHUNAUTI challenge, alongside strategic victories at the IITB-SJMSOM Pitch 2.0, NXP India Tech Startup Challenge (Top 10), and Maharashtra Startup Week (Top 100).
 

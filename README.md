@@ -13,5 +13,4 @@ Branches:
     - ai-pm: specific to ai pm
 
 try
-- keep statuc in base, and complie in branches
-- 
+- keep static info in base, and complie in branches

@@ -44,3 +44,13 @@ Solving, Complex Analysis, RESTAPI, LLMs, Generative AI, RAG, CAG, Agentic AI, M
 Fine-Tuning, Machine Learning, LangChain, LangGraph, OpenAI, NLP
 Languages/Database: Typescript, JavaScript, Python, MySQL, Postgres, MongoDB, Node.js
 Developer Tools: Git, VS Code, Visual Studio, IntelliJ, Eclipse, AWS S3, DBeaver, Kubernetes, Docker.
+
+----
+
+- Pioneered a handheld micro-spectrometry sensor utilizing optical spectroscopy to precisely classify post-consumer polymers (HDPE, PET, PP), successfully bypassing the high error rates of standard Computer Vision models.
+
+- Architected modular and ultra-low-powered IoT ecosystem devices with interchangeable sensor payloads, micro-spectrometry (to identify polymers – HDPE, PET, PP)
+
+enabling horizontal scaling across waste,compost, and material sensing.
+
+- Built a real-time GIS analytics and logistics dashboard leveraging AWS (EC2, Lambda) and an event-driven architecture (Kafka, MQTT) to process continuous hardware telemetry into automated dispatch routing.
