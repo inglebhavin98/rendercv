@@ -10,8 +10,8 @@
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
-  page-top-margin: 0.5in,
-  page-bottom-margin: 0.5in,
+  page-top-margin: 0.25in,
+  page-bottom-margin: 0.25in,
   page-left-margin: 0.5in,
   page-right-margin: 0.5in,
   page-show-footer: false,
@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 6,
-    day: 7,
+    day: 8,
   ),
 )
 
@@ -101,14 +101,16 @@
   [
     #strong[Faculty of Management Studies, University of Delhi]
 
+    #emph[Master of Business Administration (MBA)]
+
   ],
   [
+    #emph[Delhi]
+
     #emph[July 2024 – May 2026]
 
   ],
   main-column-second-row: [
-    #emph[Master of Business Administration (MBA)]
-
   ],
 )
 
@@ -116,17 +118,21 @@
   [
     #strong[Sardar Patel Institute of Technology, University of Mumbai]
 
+    #summary[Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering]
+
   ],
   [
+    #emph[Mumbai]
+
     #emph[June 2016 – May 2020]
 
   ],
   main-column-second-row: [
-    #summary[Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering]
+    - Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5\/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC\/HMI training.
 
-    - Secured INR 5L grant from Department of Science & Technology, GOI and NSRCEL (IIM Bangalore) incubator; filed 3 provisional patents for an IoT product, ranking as a Top 60 Finalist team nationally among 100k+ applicants.
+    - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100k+ applicants.
 
-    - Led a 4-engineer pod to build a robotic platform, placing 5th out of 35 national finalists at the Mitsubishi Electric Cup; secured ₹2L+ in corporate hardware sponsorship and advanced PLC\/HMI training to execute the integration.
+    - Authored and presented 3 IEEE research papers (at IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
 
   ],
 )
@@ -137,7 +143,7 @@
   [
     #strong[Management Consulting Analyst Intern]
 
-    #emph[Accenture Strategy]
+    #emph[Accenture Strategy & Consulting]
 
   ],
   [
@@ -147,13 +153,13 @@
 
   ],
   main-column-second-row: [
-    - Architected a stateful multi-agent orchestrator prototype using LangGraph and LangChain to simulate the end-to-end migration of a legacy Genesys IVR network to Dialogflow CX for a Fortune 10 Global Healthcare Enterprise.
+    - Architected a stateful multi-agent orchestrator prototype using LangGraph and LangChain to simulate the end-to-end migration of a Fortune 10 Global Healthcare Enterprise.
 
-    - Implemented an #strong[Orchestrator-Worker pattern] running Chain–of–Thought (CoT) and few-shot prompting over multi-LLM router pipelines (via OpenRouter), successfully mapping \~70 high-frequency, complex healthcare journeys onto intelligent conversational steering bots.
+    - Implemented an Orchestrator-Worker pattern running Chain–of–Thought (CoT) and few-shot prompting over multi-LLM router pipelines, mapping \~70 complex healthcare intents onto intelligent conversational steering bots.
 
-    - #strong[Engineered an automated data extraction and ingestion pipeline] during a pre-signing client data freeze, scraping 100+ public enterprise URLs and unstructured policy PDFs to bypass operational project blockers.
+    - Engineered an automated data extraction and ingestion pipeline during a pre-signing client data freeze, scraping 100+ public enterprise URLs and unstructured policy PDFs to bypass operational project blockers.
 
-    - Deployed #strong[semantic and paragraph-based chunking protocols] using LangChain to populate a low-latency ChromaDB vector database, providing a robust, ground-truth knowledge layer for context-aware RAG retrieval.
+    - Deployed semantic and paragraph-based chunking protocols using LangChain to populate a low-latency ChromaDB vector database, providing a robust, ground-truth knowledge layer for context-aware RAG retrieval.
 
   ],
 )
@@ -172,19 +178,15 @@
 
   ],
   main-column-second-row: [
-    - Led a 3–engineer pod to architect Cart and Checkout journeys with a hybrid Croma payment integration, driving a \~47\% landing-to-checkout conversion increase and processing 14K+ weekly orders
+    - Led a 3–engineer pod to architect Cart and Checkout journeys with a hybrid Croma payment integration, driving a \~47\% landing-to-checkout conversion increase, processing 14K+ weekly orders, and support 120Mn+ end users.
 
     - Spearheaded Adobe Experience Manager (AEM) and React integration, decoupling frontend rendering from backend logic, cutting content delivery from days to minutes and empowering product teams to autonomously run A\/B tests.
 
     - Engineered aggressive WebView preloading and pre-rendering architectures within the Flutter superapp, eliminating browser engine cold starts and reducing Time-to-Interactive (TTI) by up to 70\%.
 
+    - Built the 'My Orders' frontend module as sole owner, scaling it to top 5 most visited page during the 800K+ user rollout; earned 'The Spark' Award and 'Exceptional Achiever' rating for ranking in top 3 out of 250+ contributors.
+
     - Fast-tracked for the Tata Administrative Services (TAS) flagship leadership program; shortlisted for the final Chairman’s Group Discussion among 80+ top-performing internal candidates.
-
-    - Engineered the 'My Orders' frontend module as sole owner, scaling it to a top-5 most visited page during the 800K+ user rollout; earned 'The Spark' Award and 'Exceptional Achiever' rating for ranking in top 3 out of 250+ contributors.
-
-    - Architected onboarding frontend (Signup, Profile, Address) in ReactJS and Redux for Tata Neu superapp, accelerating the launch and establishing infrastructure to support 120Mn+ users.
-
-    - Architected NextJS, MobX, and Sanity CMS for Tata Neu's flagship electronics vertical, unifying reference architecture adopted by 5+ cross-functional pods to accelerate feature integrations.
 
   ],
 )
@@ -195,61 +197,23 @@
   [
     #strong[Co-Founder]
 
+    #emph[Zargun Electronics and Science Pvt. Ltd.]
+
   ],
   [
+    #emph[Remote]
+
     #emph[Jan 2018 – Aug 2020]
 
   ],
   main-column-second-row: [
-    #emph[Zargun Electronics and Science Pvt. Ltd.]
-
-    #summary[Directed product engineering from inception to MVP launch (June 2018 – Aug 2020) before transitioning to a strictly non-operational advisory role; appointed as Director during corporate restructuring from OPC to Pvt. Ltd. in May 2021.]
-
-    - Pioneered a handheld micro-spectrometry sensor utilizing optical spectroscopy to precisely classify post-consumer polymers (HDPE, PET, PP), successfully bypassing the high error rates of standard Computer Vision models.
-
-    - Architected a modular, ultra-low-power IoT ecosystem (\"Smart Kit\") featuring in-house custom PCB design and interchangeable sensor payloads (3V3–12V), enabling horizontal scaling across waste, compost, and material sensing.
+    #summary[Directed product engineering till MVP launch before transitioning to a strictly non-operational advisory role in Aug '20.]
 
     - Built a real-time GIS analytics and logistics dashboard leveraging AWS (EC2, Lambda) and an event-driven architecture (Kafka, MQTT) to process continuous hardware telemetry into automated dispatch routing.
 
     - Recognized globally as a Top 15 enterprise (out of 41 teams across 16 nations) at the Singapore International Foundation's Young Social Entrepreneurs 2021 accelerator, receiving mentorship from McKinsey and Temasek Int.
 
     - Secured over \$44K in seed grants, via the MeitY STPI CHUNAUTI challenge, alongside strategic victories at the IITB-SJMSOM Pitch 2.0, NXP India Tech Startup Challenge (Top 10), and Maharashtra Startup Week (Top 100).
-
-  ],
-)
-
-== Publications
-
-#regular-entry(
-  [
-    #strong[Implementation of Virtual OPC on Cloud]
-
-  ],
-  [
-    2019
-
-  ],
-  main-column-second-row: [
-    
-
-    #link("https://doi.org/10.1109/TENCON.2019.8929398")[10.1109\/TENCON.2019.8929398] (IEEE Region 10 Conference - TENCON)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Aquaculture Monitoring and Feedback System]
-
-  ],
-  [
-    2019
-
-  ],
-  main-column-second-row: [
-    
-
-    #link("https://doi.org/10.1109/iSES47678.2019.00082")[10.1109\/iSES47678.2019.00082] (IEEE International Symposium on Smart Electronic Systems -iSES)
 
   ],
 )
@@ -274,3 +238,13 @@
 
   ],
 )
+
+== Skills
+
+#strong[Languages:] Python, C++, CUDA, Rust, Julia
+
+#strong[ML Frameworks:] PyTorch, JAX, TensorFlow, Triton, ONNX
+
+#strong[Infrastructure:] Kubernetes, Ray, distributed training, AWS, GCP
+
+#strong[Research Areas:] Neural architecture search, model compression, efficient inference, multi-agent RL
