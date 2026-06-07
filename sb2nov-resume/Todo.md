@@ -6,26 +6,11 @@ Todo
 
 - make things bold/italic
 
-- reduce zargun points to some extent include 
-
-- should i keep separate publication section or not
-
-- inc projects/pub/skills
-
 - what title <!-- # position: Senior Software Developer I -->
 
-- backdate fin project repo and shocase in mba summary?
+- fin project: mba or indep
 
 - add links everwhere
-
----
-
-3. Reduce points on Founding Experience (Option A)
-
-
-Point 1: Focus entirely on the technical product architecture you built (the code stack, cloud infrastructure, or data pipelines).
-
-Point 2: Focus on hard engineering/business metrics (e.g., user acquisition scale, automated system efficiencies, or platform uptime). Remove any fluff about soft skills, marketing, or general operations.
 
 ---
 
@@ -46,11 +31,3 @@ Languages/Database: Typescript, JavaScript, Python, MySQL, Postgres, MongoDB, No
 Developer Tools: Git, VS Code, Visual Studio, IntelliJ, Eclipse, AWS S3, DBeaver, Kubernetes, Docker.
 
 ----
-
-- Pioneered a handheld micro-spectrometry sensor utilizing optical spectroscopy to precisely classify post-consumer polymers (HDPE, PET, PP), successfully bypassing the high error rates of standard Computer Vision models.
-
-- Architected modular and ultra-low-powered IoT ecosystem devices with interchangeable sensor payloads, micro-spectrometry (to identify polymers – HDPE, PET, PP)
-
-enabling horizontal scaling across waste,compost, and material sensing.
-
-- Built a real-time GIS analytics and logistics dashboard leveraging AWS (EC2, Lambda) and an event-driven architecture (Kafka, MQTT) to process continuous hardware telemetry into automated dispatch routing.
