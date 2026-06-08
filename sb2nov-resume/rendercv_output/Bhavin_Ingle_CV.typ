@@ -10,8 +10,8 @@
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
-  page-top-margin: 0.25in,
-  page-bottom-margin: 0.25in,
+  page-top-margin: 0.3in,
+  page-bottom-margin: 0.19in,
   page-left-margin: 0.5in,
   page-right-margin: 0.5in,
   page-show-footer: false,
@@ -130,7 +130,7 @@
   main-column-second-row: [
     - Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5\/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC\/HMI training.
 
-    - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100k+ applicants.
+    - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100K+ applicants.
 
     - Authored 3 IEEE research papers (presented at, IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
 
@@ -153,13 +153,11 @@
 
   ],
   main-column-second-row: [
-    - Architected a stateful multi-agent orchestrator prototype using LangGraph and LangChain to simulate the end-to-end migration of a Fortune 10 Global Healthcare Enterprise.
+    - Developed a stateful multi-agent orchestrator prototype using LangGraph and LangChain to conceptualize the migration of a legacy Genesys IVR system to a conversational AI platform for a Fortune 10 Healthcare Enterprise.
 
-    - Implemented an Orchestrator-Worker pattern running Chain–of–Thought (CoT) and few-shot prompting over multi-LLM router pipelines, mapping \~70 complex healthcare intents onto intelligent conversational steering bots.
+    - Engineered an automated data pipeline to scrape, collate, and refine unstructured text from 100+ public enterprise URLs and policy PDFs, applying semantic paragraph chunking to build a vectorDB layer for RAG retrieval.
 
-    - Engineered an automated data extraction and ingestion pipeline during a pre-signing client data freeze, scraping 100+ public enterprise URLs and unstructured policy PDFs to bypass operational project blockers.
-
-    - Deployed semantic and paragraph-based chunking protocols using LangChain to populate a low-latency ChromaDB vector database, providing a robust, ground-truth knowledge layer for context-aware RAG retrieval.
+    - Designed a context-aware RAG chatbot using multi-LLM router pipelines, Chain-of-Thought (CoT), and few-shot prompting; demonstrated automated classification of \~70 healthcare intents, their steering and routing user queries.
 
   ],
 )
@@ -178,13 +176,13 @@
 
   ],
   main-column-second-row: [
-    - Led a 3–engineer pod to architect Cart and Checkout journeys with a hybrid Croma payment integration, driving a \~47\% landing-to-checkout conversion increase, processing 14K+ weekly orders, and support 120Mn+ end users.
+    - Led a 3–engineer pod to build e-commerce (Cart, Checkout) journeys with a hybrid Croma payment integration, driving a \~47\% landing-to-checkout conversion increase, processing 14K+ weekly orders for 120Mn+ end users.
 
     - Spearheaded Adobe Experience Manager (AEM) and React integration, decoupling frontend rendering from backend logic, cutting content delivery from days to minutes and empowering product teams to autonomously run A\/B tests.
 
-    - Engineered aggressive WebView preloading and pre-rendering architectures within the Flutter superapp, eliminating browser engine cold starts and reducing Time-to-Interactive (TTI) by up to 70\%.
+    - Engineered aggressive WebView preloading and pre-rendering designs within the Flutter superapp, eliminating browser engine cold starts and reducing Time-to-Interactive (TTI) by up to 70\%.
 
-    - Built the 'My Orders' frontend module as sole owner, scaling it to top 5 most visited page during the 800K+ user rollout; earned 'The Spark' Award and 'Exceptional Achiever' rating for ranking in top 3 out of 250+ contributors.
+    - Built the 'My Orders' frontend module as sole owner, scaling it to top 5 most visited page during the 800K+ user rollout; earned 'The Spark' Award and 'Exceptional Achiever' rating for ranking in top 3 out of 250+ developers.
 
     - Fast-tracked for the Tata Administrative Services (TAS) flagship leadership program; shortlisted for the final Chairman’s Group Discussion among 80+ top-performing internal candidates.
 
@@ -222,29 +220,29 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/")[FlashInfer]]
+    #strong[#link("https://github.com/")[FinInfer]]
 
   ],
   [
-    #emph[Jan 2023 – present]
+    #emph[Aug 2024 – present]
 
   ],
   main-column-second-row: [
-    #summary[Open-source library for high-performance LLM inference kernels]
+    #summary[Financial Orchestrator to automate portfolio optimization and cross-border tax analysis (US\/India).]
 
-    - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
+    - Designed a financial document processing pipeline leveraging using LangGraph, PydanticAI, Crawl4AI and Instructor to extract granular asset distributions and compensation components from fragmented PDFs.
 
-    - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+    - Implemented hierarchical routing to delegate tasks across specialized agents, reducing context window tokens by 40\%.
+
+    - Built a Stock Screening Engine with a Text-to-SQL semantic routing pipeline having a 94\% translation accuracy rate.
 
   ],
 )
 
 == Skills
 
-#strong[Languages:] Python, C++, CUDA, Rust, Julia
+#strong[AI Systems:] Gen AI, LLMs, Agentic AI, Multi-Agent Architectures, LangGraph, LangChain, Orchestrator-Worker Pattern, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Evals, Chain-of-Thought, Few-Shot Prompting, Chunking, Vector Embeddings, ChromaDB, Intent Taxonomy Mapping
 
-#strong[ML Frameworks:] PyTorch, JAX, TensorFlow, Triton, ONNX
+#strong[Languages & Runtimes:] JavaScript, TypeScript, Node.js, Dart, Flutter, REST API, Next.js, React, Redux, MobX
 
-#strong[Infrastructure:] Kubernetes, Ray, distributed training, AWS, GCP
-
-#strong[Research Areas:] Neural architecture search, model compression, efficient inference, multi-agent RL
+#strong[DevOps & Tools:] GCP, AWS S3, OpenRouter, Docker, Git, VS Code, Visual Studio, Sanity CMS, MySQL
