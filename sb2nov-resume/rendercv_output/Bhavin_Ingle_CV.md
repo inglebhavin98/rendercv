@@ -24,11 +24,11 @@
 
 Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering
 
-- Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.
+- Awarded Departmental and Institute Excellence honors for performance in [Mitsubishi Electric Cup 2019](https://mitsubishielectric.in/fa/mecup/winners.php#tabs-4); Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.
 
-- Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100K+ applicants.
+- Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; [Top 30 Finalist team nationally](https://blog.mygov.in/announcing-winners-for-india-innovation-challenge-design-contest-2018-and-the-launch-of-2019-edition/) among 100K+ applicants.
 
-- Authored 3 IEEE research papers (presented at, IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
+- Authored 3 IEEE research papers (presented at, IEEE Region 10 Conference – [TENCON 2019](https://ieeexplore.ieee.org/document/8929398), [iSES](https://ieeexplore.ieee.org/document/9002485), and [GCAT](https://www.proceedings.com/content/052/052702webtoc.pdf)) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
 
 
 
@@ -82,16 +82,16 @@ Directed product engineering until MVP launch before transitioning to a non-oper
 
 - Architected modular and ultra-low-powered IoT ecosystem devices with interchangeable sensor payloads, micro-spectrometry (to identify polymers – HDPE, PET, PP) enabling scaling across waste, compost, and material sensing.
 
-- Recognized globally as a Top 15 enterprise (out of 41 teams across 16 nations) at the Singapore International Foundation's Young Social Entrepreneurs cohort, receiving mentorship from McKinsey and Temasek International.
+- Recognized [globally as a Top 15 enterprise](https://www.hindustantimes.com/brand-post/indian-social-enterprises-make-headway-at-sif-s-yse-global-programme-2021-101634649509304.html) (out of 41 teams across 16 nations) at the [Singapore International Foundation's Young Social Entrepreneurs](https://www.businesswireindia.com/fifteen-teams-of-aspiring-changemakers-advance-to-the-next-phase-of-the-sifs-12th-young-social-entrepreneurs-yse-global-programme-74745.html) cohort, receiving mentorship from McKinsey and Temasek International.
 
-- Secured over $44K in seed funds, via the MeitY STPI CHUNAUTI challenge, alongside strategic victories at the IITB-SJMSOM Pitch 2.0, NXP India Tech Startup Challenge (Top 10), and Maharashtra Startup Week (Top 100).
+- Secured over $44K in seed funds, via the [MeitY STPI CHUNAUTI](https://sansad.in/getFile/loksabhaquestions/annex/1711/AU4720.pdf?source=pqals) challenge, alongside strategic victories at the [IITB-SJMSOM Pitch 2.0](https://www.linkedin.com/posts/gurudattrao_sjmsom-iitbombay-zargunes-activity-6818788610326704128-GS8M?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy), [NXP India Tech Startup Challenge (Top 10)](https://www.facebook.com/StartupEventsIndia/posts/after-2-months-of-rigorous-evaluation-we-have-the-top-10-finalist-these-indian-s/3894279443992758/), and Maharashtra Startup Week (Top 100).
 
 
 
 # Projects
-## **[FinInfer](https://github.com/)**
+## **Equinox**
 
-*Aug 2024 – present*
+*Apr 2026 – present*
 
 Financial Orchestrator to automate portfolio optimization and cross-border tax analysis (US/India).
 

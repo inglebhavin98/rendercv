@@ -46,7 +46,7 @@
   typography-bold-connections: false,
   typography-bold-section-titles: false,
   links-underline: true,
-  links-show-external-link-icon: true,
+  links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 0.5cm,
   header-space-below-name: 0.4cm,
@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 6,
-    day: 8,
+    day: 10,
   ),
 )
 
@@ -128,11 +128,11 @@
 
   ],
   main-column-second-row: [
-    - Awarded Departmental and Institute Excellence honors for performance in Mitsubishi Electric Cup 2019; Led a team of 4 to rank 5\/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC\/HMI training.
+    - Awarded Departmental and Institute Excellence honors for performance in #link("https://mitsubishielectric.in/fa/mecup/winners.php#tabs-4")[Mitsubishi Electric Cup 2019]; Led a team of 4 to rank 5\/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC\/HMI training.
 
-    - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; Top 30 Finalist team nationally among 100K+ applicants.
+    - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; #link("https://blog.mygov.in/announcing-winners-for-india-innovation-challenge-design-contest-2018-and-the-launch-of-2019-edition/")[Top 30 Finalist team nationally] among 100K+ applicants.
 
-    - Authored 3 IEEE research papers (presented at, IEEE Region 10 Conference – TENCON 2019, iSES, and GCAT) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
+    - Authored 3 IEEE research papers (presented at, IEEE Region 10 Conference – #link("https://ieeexplore.ieee.org/document/8929398")[TENCON 2019], #link("https://ieeexplore.ieee.org/document/9002485")[iSES], and #link("https://www.proceedings.com/content/052/052702webtoc.pdf")[GCAT]) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
 
   ],
 )
@@ -209,9 +209,9 @@
 
     - Architected modular and ultra-low-powered IoT ecosystem devices with interchangeable sensor payloads, micro-spectrometry (to identify polymers – HDPE, PET, PP) enabling scaling across waste, compost, and material sensing.
 
-    - Recognized globally as a Top 15 enterprise (out of 41 teams across 16 nations) at the Singapore International Foundation's Young Social Entrepreneurs cohort, receiving mentorship from McKinsey and Temasek International.
+    - Recognized #link("https://www.hindustantimes.com/brand-post/indian-social-enterprises-make-headway-at-sif-s-yse-global-programme-2021-101634649509304.html")[globally as a Top 15 enterprise] (out of 41 teams across 16 nations) at the #link("https://www.businesswireindia.com/fifteen-teams-of-aspiring-changemakers-advance-to-the-next-phase-of-the-sifs-12th-young-social-entrepreneurs-yse-global-programme-74745.html")[Singapore International Foundation's Young Social Entrepreneurs] cohort, receiving mentorship from McKinsey and Temasek International.
 
-    - Secured over \$44K in seed funds, via the MeitY STPI CHUNAUTI challenge, alongside strategic victories at the IITB-SJMSOM Pitch 2.0, NXP India Tech Startup Challenge (Top 10), and Maharashtra Startup Week (Top 100).
+    - Secured over \$44K in seed funds, via the #link("https://sansad.in/getFile/loksabhaquestions/annex/1711/AU4720.pdf?source=pqals")[MeitY STPI CHUNAUTI] challenge, alongside strategic victories at the #link("https://www.linkedin.com/posts/gurudattrao_sjmsom-iitbombay-zargunes-activity-6818788610326704128-GS8M?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy")[IITB-SJMSOM Pitch 2.0], #link("https://www.facebook.com/StartupEventsIndia/posts/after-2-months-of-rigorous-evaluation-we-have-the-top-10-finalist-these-indian-s/3894279443992758/")[NXP India Tech Startup Challenge (Top 10)], and Maharashtra Startup Week (Top 100).
 
   ],
 )
@@ -220,11 +220,11 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/")[FinInfer]]
+    #strong[Equinox]
 
   ],
   [
-    #emph[Aug 2024 – present]
+    #emph[Apr 2026 – present]
 
   ],
   main-column-second-row: [
