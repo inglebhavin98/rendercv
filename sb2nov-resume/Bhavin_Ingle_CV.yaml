@@ -9,55 +9,33 @@ cv:
   social_networks:
     - network: LinkedIn
       username: inglebhavin98
+    - network: GitHub
+      username: inglebhavin98
   custom_connections: []
   sections:
-    education:
-      - institution: Faculty of Management Studies, University of Delhi
-        area: "Master of Business Administration (MBA)"
-        degree: 
-        date:
-        start_date: 2024-07
-        end_date: 2026-05
-        location: Delhi
-        summary: ""
-        highlights:
-        # optional
-          # - Selected from a batch of 280+ students to serve as an Executive Member of the Alpha Research & Investment Club; managed an INR 5L live portfolio funded by students and alumni for the 2025–2026 term.
-      - institution: Sardar Patel Institute of Technology, University of Mumbai
-        area: ""
-        degree: ""
-        date: 
-        start_date: 2016-06
-        end_date: 2020-05
-        location: Mumbai
-        summary: Bachelor of Engineering (BE) in Electronics & Telecommunication
-          Engineering
-        highlights:
-          - Awarded Departmental and Institute Excellence honors for performance in [Mitsubishi Electric Cup 2019](https://mitsubishielectric.in/fa/mecup/winners.php#tabs-4); Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.
-          - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; [Top 30 Finalist team nationally](https://blog.mygov.in/announcing-winners-for-india-innovation-challenge-design-contest-2018-and-the-launch-of-2019-edition/) among 100K+ applicants.
-          - Authored 3 IEEE research papers (presented at, IEEE Region 10 Conference – [TENCON 2019](https://ieeexplore.ieee.org/document/8929398), [iSES](https://ieeexplore.ieee.org/document/9002485), and [GCAT](https://www.proceedings.com/content/052/052702webtoc.pdf)) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision. 
     experience:
-      - company: Accenture Strategy & Consulting
-        position: Management Consulting Analyst Intern
+      - company: Accenture Strategy & Consulting (Accenture SONG)
+        position: Management Consulting Analyst
         date:
-        start_date: 2024-04
-        end_date: 2024-05
+        start_date: 2026-08
+        end_date:
         location: Bengaluru, IN
-        summary:
+        summary: This is a summary....
         highlights:
-          - Developed a stateful multi-agent orchestrator prototype using LangGraph and LangChain to conceptualize the migration of a legacy Genesys IVR system to a conversational AI platform for a Fortune 10 Healthcare Enterprise.
-          - Engineered an automated data pipeline to scrape, collate, and refine unstructured text from 100+ public enterprise URLs and policy PDFs, applying semantic paragraph chunking to build a vectorDB layer for RAG retrieval.
-          - Designed a context-aware RAG chatbot using multi-LLM router pipelines, Chain-of-Thought (CoT), and few-shot prompting; demonstrated automated classification of ~70 healthcare intents, their steering and routing user queries.
+          - Spearheaded PoC to showcase migration of legacy IVR contact center to an Agentic IVR/Conversational AI platform for a Fortune 10 Healthcare Enterprise; translating ~70 healthcare customer intents into a dynamic routing engine.
+          - Developed an orchestrator with persistent context memory to handle multi-turn queries for the agentic chatbot; Implemented CoT reasoning for routing via specialised worker agents, token streaming to reduce inference latency
+          - Built RAG engine leveraging semantic paragraph-chunking to ingest unstructured data from 100+ healthcare enterprise URLs/PDFs; optimized retrieval latency via hybrid search (BM25 + zembed-1) and indexing in ChromaDB.
+          - Authored the PRDs outlining model benchmarking, AI governance frameworks, automated model evaluation (Evals) rubrics to validate intent-steering accuracy, token economics, context budgets, and AI guardrails (PII masking).
 #
-      - company: Tata Neu
-        position: Senior Digital Engineer I
+      - company: Tata Neu (Tata Digital)
+        position: Senior Software Engineer I
         # position: Senior Software Developer I
         # position: Senior Software Engineer I
         date:
         start_date: 2020-09
         end_date: 2024-06
         location: Mumbai, IN
-        summary:
+        summary: This is a summary....
         highlights:
           - Led a 3–engineer pod to build e-commerce (Cart, Checkout) journeys with a hybrid Croma payment integration, driving a ~47% landing-to-checkout conversion increase, processing 14K+ weekly orders for 120Mn+ end users.
           - Spearheaded Adobe Experience Manager (AEM) and React integration, decoupling frontend rendering from backend logic, cutting content delivery from days to minutes and empowering product teams to autonomously run A/B tests.
@@ -82,6 +60,31 @@ cv:
           #
           - Recognized [globally as a Top 15 enterprise](https://www.hindustantimes.com/brand-post/indian-social-enterprises-make-headway-at-sif-s-yse-global-programme-2021-101634649509304.html) (out of 41 teams across 16 nations) at the [Singapore International Foundation's Young Social Entrepreneurs](https://www.businesswireindia.com/fifteen-teams-of-aspiring-changemakers-advance-to-the-next-phase-of-the-sifs-12th-young-social-entrepreneurs-yse-global-programme-74745.html) cohort, receiving mentorship from McKinsey and Temasek International.
           - Secured over $44K in seed funds, via the [MeitY STPI CHUNAUTI](https://sansad.in/getFile/loksabhaquestions/annex/1711/AU4720.pdf?source=pqals) challenge, alongside strategic victories at the [IITB-SJMSOM Pitch 2.0](https://www.linkedin.com/posts/gurudattrao_sjmsom-iitbombay-zargunes-activity-6818788610326704128-GS8M?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy), [NXP India Tech Startup Challenge (Top 10)](https://www.facebook.com/StartupEventsIndia/posts/after-2-months-of-rigorous-evaluation-we-have-the-top-10-finalist-these-indian-s/3894279443992758/), and Maharashtra Startup Week (Top 100).
+    education:
+      - institution: Faculty of Management Studies, University of Delhi
+        area: "Master of Business Administration (MBA)"
+        degree:
+        date:
+        start_date: 2024-07
+        end_date: 2026-05
+        location: Delhi
+        summary: ""
+        highlights:
+        # optional
+          # - Selected from a batch of 280+ students to serve as an Executive Member of the Alpha Research & Investment Club; managed an INR 5L live portfolio funded by students and alumni for the 2025–2026 term.
+      - institution: Sardar Patel Institute of Technology, University of Mumbai
+        area: ""
+        degree: ""
+        date: 
+        start_date: 2016-06
+        end_date: 2020-05
+        location: Mumbai
+        summary: Bachelor of Engineering (BE) in Electronics & Telecommunication
+          Engineering
+        highlights:
+          - Awarded Departmental and Institute Excellence honors for performance in [Mitsubishi Electric Cup 2019](https://mitsubishielectric.in/fa/mecup/winners.php#tabs-4) ; Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.
+          - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; [Top 30 Finalist team nationally](https://blog.mygov.in/announcing-winners-for-india-innovation-challenge-design-contest-2018-and-the-launch-of-2019-edition/) among 100K+ applicants.
+          - Authored 3 IEEE research papers (presented at IEEE Region 10 Conference – [TENCON 2019](https://ieeexplore.ieee.org/document/8929398), [iSES](https://ieeexplore.ieee.org/document/9002485), and [GCAT](https://www.proceedings.com/content/052/052702webtoc.pdf)) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision. 
     #
     # publications:
     #   - title: 'Implementation of Virtual OPC on Cloud'
@@ -103,17 +106,16 @@ cv:
     #     journal: IEEE International Symposium on Smart Electronic Systems -iSES
     #     date: 2019
     #
-    projects:
-      - name: 'Equinox'
-        date:
-        start_date: 2026-04
-        end_date: present
-        location:
-        summary: Financial Orchestrator to automate portfolio optimization and cross-border tax analysis (US/India).
-        highlights:
-          - Designed a financial document processing pipeline leveraging using LangGraph, PydanticAI, Crawl4AI and Instructor to extract granular asset distributions and compensation components from fragmented PDFs.
-          - Implemented hierarchical routing to delegate tasks across specialized agents, reducing context window tokens by 40%.
-          - Built a Stock Screening Engine with a Text-to-SQL semantic routing pipeline having a 94% translation accuracy rate. 
+    # projects:
+    #   - name: 'Equinox'
+    #     date:
+    #     start_date: 2026-04
+    #     end_date: present
+    #     location:
+    #     summary: Financial Orchestrator to automate stock screening, portfolio optimization, cross-border tax implications, ITR filing.
+    #     highlights:
+    #       - Automates stock screening by parsing structured financial ratios from unstructured news streams ,corporate reports.
+    #       - Analyzes equities and mutual funds for gains optimization, portfolio churning and tax-harvesting opportunities
     # selected_honors:
     #   - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
     #   - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
@@ -122,7 +124,7 @@ cv:
     #   - bullet: Fulbright Scholarship for Graduate Studies (2018)
     skills:
       - label: AI Systems
-        details: Gen AI, LLMs, Agentic AI, Multi-Agent Architectures, LangGraph, LangChain, Orchestrator-Worker Pattern, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Evals, Chain-of-Thought, Few-Shot Prompting, Chunking, Vector Embeddings, ChromaDB, Intent Taxonomy Mapping
+        details: Gen AI, LLMs, Agentic AI, Multi-Agent Architectures, LangGraph, LangChain, Orchestrator-Worker Pattern, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Evals, Chain-of-Thought, Few-Shot Prompting, Chunking, Vector Embeddings, ChromaDB, Intent Taxonomy Mapping, Pydantic, Crawl4AI, Instructor
       - label: Languages & Runtimes
         details: JavaScript, TypeScript, Node.js, Dart, Flutter, REST API, Next.js, React, Redux, MobX
       - label: DevOps & Tools

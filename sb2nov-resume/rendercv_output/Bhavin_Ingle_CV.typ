@@ -6,7 +6,7 @@
   name: "Bhavin Ingle",
   title: "Bhavin_Ingle",
   footer: context { [#emph[Bhavin Ingle -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in June 2026] ],
+  top-note: [ #emph[Last updated in Sept 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 10,
+    month: 9,
+    day: 3,
   ),
 )
 
@@ -92,81 +92,44 @@
   [#link("mailto:inglebhavin98@icloud.com", icon: false, if-underline: false, if-color: false)[inglebhavin98\@icloud.com]],
   [#link("tel:+91-75672-88994", icon: false, if-underline: false, if-color: false)[+917567288994]],
   [#link("https://linkedin.com/in/inglebhavin98", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/inglebhavin98]],
+  [#link("https://github.com/inglebhavin98", icon: false, if-underline: false, if-color: false)[github.com\/inglebhavin98]],
 )
 
-
-== Education
-
-#education-entry(
-  [
-    #strong[Faculty of Management Studies, University of Delhi]
-
-    #emph[Master of Business Administration (MBA)]
-
-  ],
-  [
-    #emph[Delhi]
-
-    #emph[July 2024 – May 2026]
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#education-entry(
-  [
-    #strong[Sardar Patel Institute of Technology, University of Mumbai]
-
-    #summary[Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering]
-
-  ],
-  [
-    #emph[Mumbai]
-
-    #emph[June 2016 – May 2020]
-
-  ],
-  main-column-second-row: [
-    - Awarded Departmental and Institute Excellence honors for performance in #link("https://mitsubishielectric.in/fa/mecup/winners.php#tabs-4")[Mitsubishi Electric Cup 2019]; Led a team of 4 to rank 5\/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC\/HMI training.
-
-    - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; #link("https://blog.mygov.in/announcing-winners-for-india-innovation-challenge-design-contest-2018-and-the-launch-of-2019-edition/")[Top 30 Finalist team nationally] among 100K+ applicants.
-
-    - Authored 3 IEEE research papers (presented at, IEEE Region 10 Conference – #link("https://ieeexplore.ieee.org/document/8929398")[TENCON 2019], #link("https://ieeexplore.ieee.org/document/9002485")[iSES], and #link("https://www.proceedings.com/content/052/052702webtoc.pdf")[GCAT]) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
-
-  ],
-)
 
 == Experience
 
 #regular-entry(
   [
-    #strong[Management Consulting Analyst Intern]
+    #strong[Management Consulting Analyst]
 
-    #emph[Accenture Strategy & Consulting]
+    #emph[Accenture Strategy & Consulting (Accenture SONG)]
 
   ],
   [
     #emph[Bengaluru, IN]
 
-    #emph[Apr 2024 – May 2024]
+    #emph[Aug 2026 – present]
 
   ],
   main-column-second-row: [
-    - Developed a stateful multi-agent orchestrator prototype using LangGraph and LangChain to conceptualize the migration of a legacy Genesys IVR system to a conversational AI platform for a Fortune 10 Healthcare Enterprise.
+    #summary[This is a summary....]
 
-    - Engineered an automated data pipeline to scrape, collate, and refine unstructured text from 100+ public enterprise URLs and policy PDFs, applying semantic paragraph chunking to build a vectorDB layer for RAG retrieval.
+    - Spearheaded PoC to showcase migration of legacy IVR contact center to an Agentic IVR\/Conversational AI platform for a Fortune 10 Healthcare Enterprise; translating \~70 healthcare customer intents into a dynamic routing engine.
 
-    - Designed a context-aware RAG chatbot using multi-LLM router pipelines, Chain-of-Thought (CoT), and few-shot prompting; demonstrated automated classification of \~70 healthcare intents, their steering and routing user queries.
+    - Developed an orchestrator with persistent context memory to handle multi-turn queries for the agentic chatbot; Implemented CoT reasoning for routing via specialised worker agents, token streaming to reduce inference latency
+
+    - Built RAG engine leveraging semantic paragraph-chunking to ingest unstructured data from 100+ healthcare enterprise URLs\/PDFs; optimized retrieval latency via hybrid search (BM25 + zembed-1) and indexing in ChromaDB.
+
+    - Authored the PRDs outlining model benchmarking, AI governance frameworks, automated model evaluation (Evals) rubrics to validate intent-steering accuracy, token economics, context budgets, and AI guardrails (PII masking).
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Senior Digital Engineer I]
+    #strong[Senior Software Engineer I]
 
-    #emph[Tata Neu]
+    #emph[Tata Neu (Tata Digital)]
 
   ],
   [
@@ -176,6 +139,8 @@
 
   ],
   main-column-second-row: [
+    #summary[This is a summary....]
+
     - Led a 3–engineer pod to build e-commerce (Cart, Checkout) journeys with a hybrid Croma payment integration, driving a \~47\% landing-to-checkout conversion increase, processing 14K+ weekly orders for 120Mn+ end users.
 
     - Spearheaded Adobe Experience Manager (AEM) and React integration, decoupling frontend rendering from backend logic, cutting content delivery from days to minutes and empowering product teams to autonomously run A\/B tests.
@@ -216,32 +181,51 @@
   ],
 )
 
-== Projects
+== Education
 
-#regular-entry(
+#education-entry(
   [
-    #strong[Equinox]
+    #strong[Faculty of Management Studies, University of Delhi]
+
+    #emph[Master of Business Administration (MBA)]
 
   ],
   [
-    #emph[Apr 2026 – present]
+    #emph[Delhi]
+
+    #emph[July 2024 – May 2026]
 
   ],
   main-column-second-row: [
-    #summary[Financial Orchestrator to automate portfolio optimization and cross-border tax analysis (US\/India).]
+  ],
+)
 
-    - Designed a financial document processing pipeline leveraging using LangGraph, PydanticAI, Crawl4AI and Instructor to extract granular asset distributions and compensation components from fragmented PDFs.
+#education-entry(
+  [
+    #strong[Sardar Patel Institute of Technology, University of Mumbai]
 
-    - Implemented hierarchical routing to delegate tasks across specialized agents, reducing context window tokens by 40\%.
+    #summary[Bachelor of Engineering (BE) in Electronics & Telecommunication Engineering]
 
-    - Built a Stock Screening Engine with a Text-to-SQL semantic routing pipeline having a 94\% translation accuracy rate.
+  ],
+  [
+    #emph[Mumbai]
+
+    #emph[June 2016 – May 2020]
+
+  ],
+  main-column-second-row: [
+    - Awarded Departmental and Institute Excellence honors for performance in #link("https://mitsubishielectric.in/fa/mecup/winners.php#tabs-4")[Mitsubishi Electric Cup 2019] ; Led a team of 4 to rank 5\/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC\/HMI training.
+
+    - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; #link("https://blog.mygov.in/announcing-winners-for-india-innovation-challenge-design-contest-2018-and-the-launch-of-2019-edition/")[Top 30 Finalist team nationally] among 100K+ applicants.
+
+    - Authored 3 IEEE research papers (presented at IEEE Region 10 Conference – #link("https://ieeexplore.ieee.org/document/8929398")[TENCON 2019], #link("https://ieeexplore.ieee.org/document/9002485")[iSES], and #link("https://www.proceedings.com/content/052/052702webtoc.pdf")[GCAT]) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.
 
   ],
 )
 
 == Skills
 
-#strong[AI Systems:] Gen AI, LLMs, Agentic AI, Multi-Agent Architectures, LangGraph, LangChain, Orchestrator-Worker Pattern, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Evals, Chain-of-Thought, Few-Shot Prompting, Chunking, Vector Embeddings, ChromaDB, Intent Taxonomy Mapping
+#strong[AI Systems:] Gen AI, LLMs, Agentic AI, Multi-Agent Architectures, LangGraph, LangChain, Orchestrator-Worker Pattern, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Evals, Chain-of-Thought, Few-Shot Prompting, Chunking, Vector Embeddings, ChromaDB, Intent Taxonomy Mapping, Pydantic, Crawl4AI, Instructor
 
 #strong[Languages & Runtimes:] JavaScript, TypeScript, Node.js, Dart, Flutter, REST API, Next.js, React, Redux, MobX
 
