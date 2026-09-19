@@ -4,7 +4,7 @@ cv:
   location:
   email: inglebhavin98@icloud.com
   photo:
-  phone: +91 7567288994
+  phone: +91-7567288994
   website:
   social_networks:
     - network: LinkedIn
@@ -22,28 +22,40 @@ cv:
         location: Bengaluru, IN
         summary: This is a summary....
         highlights:
-          - Spearheaded PoC to showcase migration of legacy IVR contact center to an Agentic IVR/Conversational AI platform for a Fortune 10 Healthcare Enterprise; translating ~70 healthcare customer intents into a dynamic routing engine.
-          - Developed an orchestrator with persistent context memory to handle multi-turn queries for the agentic chatbot; Implemented CoT reasoning for routing via specialised worker agents, token streaming to reduce inference latency
-          - Built RAG engine leveraging semantic paragraph-chunking to ingest unstructured data from 100+ healthcare enterprise URLs/PDFs; optimized retrieval latency via hybrid search (BM25 + zembed-1) and indexing in ChromaDB.
-          - Authored the PRDs outlining model benchmarking, AI governance frameworks, automated model evaluation (Evals) rubrics to validate intent-steering accuracy, token economics, context budgets, and AI guardrails (PII masking).
+          - "*Architected a 2-tier hybrid intent router* in FastAPI and LangGraph across 100+ healthcare intents, bypassing LLM calls via vector similarity (>0.82) for <5ms routing and enforcing fallbacks with Instructor Pydantic schemas."
+          - "Engineered an asynchronous multi-agent orchestrator over WebSockets to support real-time client interrupt signals, pgvector persistent memory, and partial Pydantic streaming to cut TTFT from 3.5s to <300ms."
+          - "Built a 2-stage hybrid RAG pipeline fusing BM25 sparse and zembed-1 dense retrieval via Reciprocal Rank Fusion (RRF) and Cohere Reranker V3 over parent-child chunks (512/2048 tokens), a 92% Hit Rate@5 and 0.74 MRR."
+          - "Implemented an automated evals harness using Promptfoo CI/CD assertions and LLM-as-a-Judge critics alongside local NLP NER middleware for zero-leakage PII anonymization and volatile memory stream re-hydration."
+
+          # - "Spearheaded PoC to showcase migration of legacy IVR contact center to an Agentic IVR/Conversational AI platform for a Fortune 10 Healthcare Enterprise; translating ~70 healthcare customer intents into a dynamic routing engine."
+          # - "Developed an orchestrator with persistent context memory to handle multi-turn queries for the agentic chatbot; Implemented CoT reasoning for routing via specialised worker agents, token streaming to reduce inference latency"
+          # - "Built RAG engine leveraging semantic paragraph-chunking to ingest unstructured data from 100+ healthcare enterprise URLs/PDFs; optimized retrieval latency via hybrid search (BM25 + zembed-1) and indexing in ChromaDB."
+          # - "Authored the PRDs outlining model benchmarking, AI governance frameworks, automated model evaluation (Evals) rubrics to validate intent-steering accuracy, token economics, context budgets, and AI guardrails (PII masking)."
 #
-      - company: Tata Neu (Tata Digital)
-        position: Senior Software Engineer I
-        # position: Senior Software Developer I
-        # position: Senior Software Engineer I
+      - company: Tata Neu
+        position: Senior Software Development Engineer
         date:
         start_date: 2020-09
         end_date: 2024-06
         location: Mumbai, IN
-        summary: This is a summary....
+        # summary: This is a summary....
         highlights:
-          - Led a 3–engineer pod to build e-commerce (Cart, Checkout) journeys with a hybrid Croma payment integration, driving a ~47% landing-to-checkout conversion increase, processing 14K+ weekly orders for 120Mn+ end users.
-          - Spearheaded Adobe Experience Manager (AEM) and React integration, decoupling frontend rendering from backend logic, cutting content delivery from days to minutes and empowering product teams to autonomously run A/B tests.
-          - Engineered aggressive WebView preloading and pre-rendering designs within the Flutter superapp, eliminating browser engine cold starts and reducing Time-to-Interactive (TTI) by up to 70%.
-          - Built the 'My Orders' frontend module as sole owner, scaling it to top 5 most visited page during the 800K+ user rollout; earned 'The Spark' Award and 'Exceptional Achiever' rating for ranking in top 3 out of 250+ developers.
-          - Fast-tracked for the Tata Administrative Services (TAS) flagship leadership program; shortlisted for the final Chairman’s Group Discussion among 80+ top-performing internal candidates.
+          - "Led a 3–engineer pod to architect e-commerce journeys (Product Landing, Cart, Checkout) with hybrid payment integration, driving a ~47%  conversion increase, and processing 14K+ weekly orders for 120Mn+ end users."
+
+          - "Engineered aggressive preloading and pre-rendering designs within the Flutter superapp, eliminating browser engine cold starts and reducing Time-to-Interactive (TTI) by up to 70%."
+
+          - "Spearheaded Adobe Experience Manager, Sanity and React integration, decoupling frontend rendering from backend logic, cutting content delivery from days to minutes, empowering product teams to autonomously run A/B tests."
+
+          - "Solely-owned the 'My Orders' frontend module in ReactJS/Redux, scaling it to a top-5 visited page during the 800K+ employee rollout; earned 'The Spark' Award and 'Exceptional Achiever' rating (ranked top 3 of 250+ developers)."
+          
+          - "Scaled a centralized Storybook.js design system with 40+ context-aware React components, cutting frontend feature delivery time by ~30% across a 30-engineer cross-functional team."
+
+          - "Fast-tracked for the Tata Administrative Services (TAS) flagship leadership program; shortlisted for the final Chairman’s Group Discussion among 80+ top-performing internal candidates."
+          
           # - Architected onboarding frontend (Signup, Profile, Address) in ReactJS and Redux for Tata Neu superapp, accelerating the launch and establishing infrastructure to support 120Mn+ users.
+
           # - Architected NextJS, MobX, and Sanity CMS for Tata Neu's flagship electronics vertical, unifying reference architecture adopted by 5+ cross-functional pods to accelerate feature integrations.
+        
     ####################################
     # FOUNDING & ENTREPRENEURIAL EXPERIENCE
     founding_experience:
@@ -52,14 +64,28 @@ cv:
         date: Jan 2018 – Aug 2020
         start_date: 2024-04
         end_date: 2024-05
-        location: Remote
+        location: Mumbai, IN
         summary: Directed product engineering until MVP launch before transitioning to a non-operational advisory role in August 2020.
         # appointed as Director during corporate restructuring from OPC to Pvt. Ltd. in May 2021.
         highlights:
-          - Architected modular and ultra-low-powered IoT ecosystem devices with interchangeable sensor payloads, micro-spectrometry (to identify polymers – HDPE, PET, PP) enabling scaling across waste, compost, and material sensing.
-          #
-          - Recognized [globally as a Top 15 enterprise](https://www.hindustantimes.com/brand-post/indian-social-enterprises-make-headway-at-sif-s-yse-global-programme-2021-101634649509304.html) (out of 41 teams across 16 nations) at the [Singapore International Foundation's Young Social Entrepreneurs](https://www.businesswireindia.com/fifteen-teams-of-aspiring-changemakers-advance-to-the-next-phase-of-the-sifs-12th-young-social-entrepreneurs-yse-global-programme-74745.html) cohort, receiving mentorship from McKinsey and Temasek International.
-          - Secured over $44K in seed funds, via the [MeitY STPI CHUNAUTI](https://sansad.in/getFile/loksabhaquestions/annex/1711/AU4720.pdf?source=pqals) challenge, alongside strategic victories at the [IITB-SJMSOM Pitch 2.0](https://www.linkedin.com/posts/gurudattrao_sjmsom-iitbombay-zargunes-activity-6818788610326704128-GS8M?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy), [NXP India Tech Startup Challenge (Top 10)](https://www.facebook.com/StartupEventsIndia/posts/after-2-months-of-rigorous-evaluation-we-have-the-top-10-finalist-these-indian-s/3894279443992758/), and Maharashtra Startup Week (Top 100).
+          - "Built ultra-low-powered modular IoT ecosystem devices with interchangeable sensor payloads, micro-spectrometry (to identify and segregate polymers – HDPE, PET, PP) enabling scaling across waste, compost, and material sensing."
+
+          - "Architected real-time event-driven telemetry pipeline on AWS (Lambda, Kafka, PostgreSQL, EC2, MQTT) to process streaming IoT hardware telemetry into an automated GIS dispatch and route optimization engine."
+
+          - "Achieved 5-year battery autonomy in off-grid deployments by engineering firmware with deep-sleep duty cycling across NB-IoT, LoRa, GSM protocols and dual-modal LiDAR/Ultrasonic sensing."
+
+
+          - "Recognized [as a Top 15 social enterprise in APAC](https://www.hindustantimes.com/brand-post/indian-social-enterprises-make-headway-at-sif-s-yse-global-programme-2021-101634649509304.html) (out of 41 teams across 16 nations) at the [Singapore International Foundation's Young Social Entrepreneurs](https://www.businesswireindia.com/fifteen-teams-of-aspiring-changemakers-advance-to-the-next-phase-of-the-sifs-12th-young-social-entrepreneurs-yse-global-programme-74745.html) cohort, receiving mentorship from McKinsey and Temasek International."
+
+          - "Secured over $44K in seed funds, via the [MeitY STPI CHUNAUTI](https://sansad.in/getFile/loksabhaquestions/annex/1711/AU4720.pdf?source=pqals) challenge, alongside strategic victories at the [IITB-SJMSOM Pitch 2.0](https://www.linkedin.com/posts/gurudattrao_sjmsom-iitbombay-zargunes-activity-6818788610326704128-GS8M?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy), [NXP India Tech Startup Challenge (Top 10)](https://www.facebook.com/StartupEventsIndia/posts/after-2-months-of-rigorous-evaluation-we-have-the-top-10-finalist-these-indian-s/3894279443992758/), and Maharashtra Startup Week (Top 100)."
+
+          ########################
+          # * **Pioneered a handheld micro-spectrometry sensor (IP Filed)** utilizing near-infrared optical spectroscopy and chemometric algorithms to classify post-consumer polymers (HDPE, PET, PP), bypassing the high error rates and false positives of standard Computer Vision models on contaminated waste.
+          # * **Executed a strategic technical pivot** from ML-based optical recognition to chemometric spectral analysis after validating CV failure modes on deformed waste, driving the R&D for a proprietary "Smart Segregator" across standalone and conveyor form factors.
+          # * **Architected a modular, ultra-low-power IoT ecosystem ("Smart Kit")**
+          # * **Partnered with SWaCH Pune (serving 125,000+ households)** to validate automated segregation PoCs, designing non-contact sorting workflows to mitigate biological and sharps hazards for 1,500+ manual waste pickers.
+          ########################
+
     education:
       - institution: Faculty of Management Studies, University of Delhi
         area: "Master of Business Administration (MBA)"
@@ -67,7 +93,7 @@ cv:
         date:
         start_date: 2024-07
         end_date: 2026-05
-        location: Delhi
+        location: Delhi, IN
         summary: ""
         highlights:
         # optional
@@ -78,13 +104,10 @@ cv:
         date: 
         start_date: 2016-06
         end_date: 2020-05
-        location: Mumbai
+        location: Mumbai, IN
         summary: Bachelor of Engineering (BE) in Electronics & Telecommunication
           Engineering
         highlights:
-          - Awarded Departmental and Institute Excellence honors for performance in [Mitsubishi Electric Cup 2019](https://mitsubishielectric.in/fa/mecup/winners.php#tabs-4) ; Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.
-          - Secured INR 5L grant from Department of Science & Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; [Top 30 Finalist team nationally](https://blog.mygov.in/announcing-winners-for-india-innovation-challenge-design-contest-2018-and-the-launch-of-2019-edition/) among 100K+ applicants.
-          - Authored 3 IEEE research papers (presented at IEEE Region 10 Conference – [TENCON 2019](https://ieeexplore.ieee.org/document/8929398), [iSES](https://ieeexplore.ieee.org/document/9002485), and [GCAT](https://www.proceedings.com/content/052/052702webtoc.pdf)) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision. 
     #
     # publications:
     #   - title: 'Implementation of Virtual OPC on Cloud'
@@ -105,7 +128,7 @@ cv:
     #     url:
     #     journal: IEEE International Symposium on Smart Electronic Systems -iSES
     #     date: 2019
-    #
+
     # projects:
     #   - name: 'Equinox'
     #     date:
@@ -116,6 +139,7 @@ cv:
     #     highlights:
     #       - Automates stock screening by parsing structured financial ratios from unstructured news streams ,corporate reports.
     #       - Analyzes equities and mutual funds for gains optimization, portfolio churning and tax-harvesting opportunities
+    
     # selected_honors:
     #   - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
     #   - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)

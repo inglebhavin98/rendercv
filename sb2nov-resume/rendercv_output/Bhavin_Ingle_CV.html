@@ -54,35 +54,40 @@
         <p>This is a summary....</p>
         <ul>
         <li>
-        <p>Spearheaded PoC to showcase migration of legacy IVR contact center to an Agentic IVR/Conversational AI platform for a Fortune 10 Healthcare Enterprise; translating ~70 healthcare customer intents into a dynamic routing engine.</p>
+        <p><em>Architected a 2-tier hybrid intent router</em> in FastAPI and LangGraph across 100+ healthcare intents, bypassing LLM calls via vector similarity (&gt;0.82) for &lt;5ms routing and enforcing fallbacks with Instructor Pydantic schemas.</p>
         </li>
         <li>
-        <p>Developed an orchestrator with persistent context memory to handle multi-turn queries for the agentic chatbot; Implemented CoT reasoning for routing via specialised worker agents, token streaming to reduce inference latency</p>
+        <p>Engineered an asynchronous multi-agent orchestrator over WebSockets to support real-time client interrupt signals, pgvector persistent memory, and partial Pydantic streaming to cut TTFT from 3.5s to &lt;300ms.</p>
         </li>
         <li>
-        <p>Built RAG engine leveraging semantic paragraph-chunking to ingest unstructured data from 100+ healthcare enterprise URLs/PDFs; optimized retrieval latency via hybrid search (BM25 + zembed-1) and indexing in ChromaDB.</p>
+        <p>Built a 2-stage hybrid RAG pipeline fusing BM25 sparse and zembed-1 dense retrieval via Reciprocal Rank Fusion (RRF) and Cohere Reranker V3 over parent-child chunks (512/2048 tokens), a 92% Hit Rate@5 and 0.74 MRR.</p>
         </li>
         <li>
-        <p>Authored the PRDs outlining model benchmarking, AI governance frameworks, automated model evaluation (Evals) rubrics to validate intent-steering accuracy, token economics, context budgets, and AI guardrails (PII masking).</p>
+        <p>Implemented an automated evals harness using Promptfoo CI/CD assertions and LLM-as-a-Judge critics alongside local NLP NER middleware for zero-leakage PII anonymization and volatile memory stream re-hydration.</p>
+        </li>
+        <li>
+        <p>Implemented an automated evals harness using Promptfoo CI/CD assertions and LLM-as-a-Judge critics alongside local NLP NER middleware for zero-leakage PII anonymization and volatile memory stream re-hydration.</p>
         </li>
         </ul>
-        <h2><strong>Senior Software Engineer I</strong></h2>
+        <h2><strong>Senior Software Development Engineer</strong></h2>
         <p><em>Mumbai, IN</em></p>
         <p><em>Sept 2020 – June 2024</em></p>
-        <p><em>Tata Neu (Tata Digital)</em></p>
-        <p>This is a summary....</p>
+        <p><em>Tata Neu</em></p>
         <ul>
         <li>
-        <p>Led a 3–engineer pod to build e-commerce (Cart, Checkout) journeys with a hybrid Croma payment integration, driving a ~47% landing-to-checkout conversion increase, processing 14K+ weekly orders for 120Mn+ end users.</p>
+        <p>Led a 3–engineer pod to architect e-commerce journeys (Product Landing, Cart, Checkout) with hybrid payment integration, driving a ~47%  conversion increase, and processing 14K+ weekly orders for 120Mn+ end users.</p>
         </li>
         <li>
-        <p>Spearheaded Adobe Experience Manager (AEM) and React integration, decoupling frontend rendering from backend logic, cutting content delivery from days to minutes and empowering product teams to autonomously run A/B tests.</p>
+        <p>Engineered aggressive preloading and pre-rendering designs within the Flutter superapp, eliminating browser engine cold starts and reducing Time-to-Interactive (TTI) by up to 70%.</p>
         </li>
         <li>
-        <p>Engineered aggressive WebView preloading and pre-rendering designs within the Flutter superapp, eliminating browser engine cold starts and reducing Time-to-Interactive (TTI) by up to 70%.</p>
+        <p>Spearheaded Adobe Experience Manager, Sanity and React integration, decoupling frontend rendering from backend logic, cutting content delivery from days to minutes, empowering product teams to autonomously run A/B tests.</p>
         </li>
         <li>
-        <p>Built the 'My Orders' frontend module as sole owner, scaling it to top 5 most visited page during the 800K+ user rollout; earned 'The Spark' Award and 'Exceptional Achiever' rating for ranking in top 3 out of 250+ developers.</p>
+        <p>Solely-owned the 'My Orders' frontend module in ReactJS/Redux, scaling it to a top-5 visited page during the 800K+ employee rollout; earned 'The Spark' Award and 'Exceptional Achiever' rating (ranked top 3 of 250+ developers).</p>
+        </li>
+        <li>
+        <p>Scaled a centralized Storybook.js design system with 40+ context-aware React components, cutting frontend feature delivery time by ~30% across a 30-engineer cross-functional team.</p>
         </li>
         <li>
         <p>Fast-tracked for the Tata Administrative Services (TAS) flagship leadership program; shortlisted for the final Chairman’s Group Discussion among 80+ top-performing internal candidates.</p>
@@ -90,16 +95,22 @@
         </ul>
         <h1>Founding Experience</h1>
         <h2><strong>Co-Founder</strong></h2>
-        <p><em>Remote</em></p>
+        <p><em>Mumbai, IN</em></p>
         <p><em>Jan 2018 – Aug 2020</em></p>
         <p><em>Zargun Electronics and Science Pvt. Ltd.</em></p>
         <p>Directed product engineering until MVP launch before transitioning to a non-operational advisory role in August 2020.</p>
         <ul>
         <li>
-        <p>Architected modular and ultra-low-powered IoT ecosystem devices with interchangeable sensor payloads, micro-spectrometry (to identify polymers – HDPE, PET, PP) enabling scaling across waste, compost, and material sensing.</p>
+        <p>Built ultra-low-powered modular IoT ecosystem devices with interchangeable sensor payloads, micro-spectrometry (to identify and segregate polymers – HDPE, PET, PP) enabling scaling across waste, compost, and material sensing.</p>
         </li>
         <li>
-        <p>Recognized <a href="https://www.hindustantimes.com/brand-post/indian-social-enterprises-make-headway-at-sif-s-yse-global-programme-2021-101634649509304.html">globally as a Top 15 enterprise</a> (out of 41 teams across 16 nations) at the <a href="https://www.businesswireindia.com/fifteen-teams-of-aspiring-changemakers-advance-to-the-next-phase-of-the-sifs-12th-young-social-entrepreneurs-yse-global-programme-74745.html">Singapore International Foundation's Young Social Entrepreneurs</a> cohort, receiving mentorship from McKinsey and Temasek International.</p>
+        <p>Architected real-time event-driven telemetry pipeline on AWS (Lambda, Kafka, PostgreSQL, EC2, MQTT) to process streaming IoT hardware telemetry into an automated GIS dispatch and route optimization engine.</p>
+        </li>
+        <li>
+        <p>Achieved 5-year battery autonomy in off-grid deployments by engineering firmware with deep-sleep duty cycling across NB-IoT, LoRa, GSM protocols and dual-modal LiDAR/Ultrasonic sensing.</p>
+        </li>
+        <li>
+        <p>Recognized <a href="https://www.hindustantimes.com/brand-post/indian-social-enterprises-make-headway-at-sif-s-yse-global-programme-2021-101634649509304.html">as a Top 15 social enterprise in APAC</a> (out of 41 teams across 16 nations) at the <a href="https://www.businesswireindia.com/fifteen-teams-of-aspiring-changemakers-advance-to-the-next-phase-of-the-sifs-12th-young-social-entrepreneurs-yse-global-programme-74745.html">Singapore International Foundation's Young Social Entrepreneurs</a> cohort, receiving mentorship from McKinsey and Temasek International.</p>
         </li>
         <li>
         <p>Secured over $44K in seed funds, via the <a href="https://sansad.in/getFile/loksabhaquestions/annex/1711/AU4720.pdf?source=pqals">MeitY STPI CHUNAUTI</a> challenge, alongside strategic victories at the <a href="https://www.linkedin.com/posts/gurudattrao_sjmsom-iitbombay-zargunes-activity-6818788610326704128-GS8M?utm_source=li_share&amp;utm_content=feedcontent&amp;utm_medium=g_dt_web&amp;utm_campaign=copy">IITB-SJMSOM Pitch 2.0</a>, <a href="https://www.facebook.com/StartupEventsIndia/posts/after-2-months-of-rigorous-evaluation-we-have-the-top-10-finalist-these-indian-s/3894279443992758/">NXP India Tech Startup Challenge (Top 10)</a>, and Maharashtra Startup Week (Top 100).</p>
@@ -107,24 +118,13 @@
         </ul>
         <h1>Education</h1>
         <h2><strong>Faculty of Management Studies, University of Delhi</strong></h2>
-        <p><em>Delhi</em></p>
+        <p><em>Delhi, IN</em></p>
         <p><em>July 2024 – May 2026</em></p>
         <p><em>Master of Business Administration (MBA)</em></p>
         <h2><strong>Sardar Patel Institute of Technology, University of Mumbai</strong></h2>
-        <p><em>Mumbai</em></p>
+        <p><em>Mumbai, IN</em></p>
         <p><em>June 2016 – May 2020</em></p>
         <p>Bachelor of Engineering (BE) in Electronics &amp; Telecommunication Engineering</p>
-        <ul>
-        <li>
-        <p>Awarded Departmental and Institute Excellence honors for performance in <a href="https://mitsubishielectric.in/fa/mecup/winners.php#tabs-4">Mitsubishi Electric Cup 2019</a> ; Led a team of 4 to rank 5/35 national finalists, secured INR 2L+ in corporate sponsorship and advanced PLC/HMI training.</p>
-        </li>
-        <li>
-        <p>Secured INR 5L grant from Department of Science &amp; Technology (GOI), Texas Instruments, NSRCEL (IIM-B), and filed 3 prov. patents for developing an aquaculture system; <a href="https://blog.mygov.in/announcing-winners-for-india-innovation-challenge-design-contest-2018-and-the-launch-of-2019-edition/">Top 30 Finalist team nationally</a> among 100K+ applicants.</p>
-        </li>
-        <li>
-        <p>Authored 3 IEEE research papers (presented at IEEE Region 10 Conference – <a href="https://ieeexplore.ieee.org/document/8929398">TENCON 2019</a>, <a href="https://ieeexplore.ieee.org/document/9002485">iSES</a>, and <a href="https://www.proceedings.com/content/052/052702webtoc.pdf">GCAT</a>) covering topics like cloud-based OPC telemetry, Industrial IoT automation architectures and computer vision.</p>
-        </li>
-        </ul>
         <h1>Skills</h1>
         <p><strong>AI Systems:</strong> Gen AI, LLMs, Agentic AI, Multi-Agent Architectures, LangGraph, LangChain, Orchestrator-Worker Pattern, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Evals, Chain-of-Thought, Few-Shot Prompting, Chunking, Vector Embeddings, ChromaDB, Intent Taxonomy Mapping, Pydantic, Crawl4AI, Instructor</p>
         <p><strong>Languages &amp; Runtimes:</strong> JavaScript, TypeScript, Node.js, Dart, Flutter, REST API, Next.js, React, Redux, MobX</p>

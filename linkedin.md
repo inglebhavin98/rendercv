@@ -1,4 +1,4 @@
-# Bhavin Ingle's CV
+# Linkedin
 
 - Phone: +91 75672 88994
 - Email: [inglebhavin98@icloud.com](mailto:inglebhavin98@icloud.com)
@@ -28,16 +28,9 @@ This is a summary....
 - Implemented an automated evals harness using Promptfoo CI/CD assertions and LLM-as-a-Judge critics alongside local NLP NER middleware for zero-leakage PII anonymization and volatile memory stream re-hydration.
 
 
+# Tata Neu
 
-## **Senior Software Development Engineer**
-
-*Mumbai, IN*
-
-*Sept 2020 – June 2024*
-
-*Tata Neu*
-
-- Led a 3–engineer pod to architect e-commerce journeys (Product Landing, Cart, Checkout) with hybrid payment integration, driving a ~47%  conversion increase, and processing 14K+ weekly orders for 120Mn+ end users.
+- Led a 3–engineer pod to build e-commerce journeys (Product Landing, Cart, Checkout) with hybrid payment integrations, driving a ~47%  conversion increase, and processing 14K+ weekly orders for 120Mn+ end users.
 
 - Engineered aggressive preloading and pre-rendering designs within the Flutter superapp, eliminating browser engine cold starts and reducing Time-to-Interactive (TTI) by up to 70%.
 
@@ -51,14 +44,7 @@ This is a summary....
 
 
 
-# Founding Experience
-## **Co-Founder**
-
-*Mumbai, IN*
-
-*Jan 2018 – Aug 2020*
-
-*Zargun Electronics and Science Pvt. Ltd.*
+# Zargun
 
 Directed product engineering until MVP launch before transitioning to a non-operational advisory role in August 2020.
 
